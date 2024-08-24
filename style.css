@@ -1,0 +1,147 @@
+/* General Styles */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Header Styles */
+header {
+    background-color: hsl(286, 92%, 49%);
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    display: inline;
+}
+
+header nav ul {
+    display: inline;
+    float: right;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a, header nav ul li .btn {
+    color: white;
+}
+
+header .btn {
+    background-color: #f04;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 100px 0;
+    margin-top: 80px;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: hsl(142, 96%, 46%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Courses Section Styles */
+.courses {
+    padding: 50px 0;
+}
+
+.course-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.course-item {
+    background-color: #eee;
+    padding: 20px;
+    width: 30%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Benefits Section Styles */
+.benefits {
+    background-color: #333;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.benefits ul {
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+}
+
+.benefits ul li {
+    margin-bottom: 10px;
+}
+
+/* Testimonials Section Styles */
+.testimonials {
+    padding: 50px 0;
+    text-align: center;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 0 0 10px;
+}
+
+cite {
+    display: block;
+    margin-top: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    color: white;
+    margin-right: 10px;
+}
